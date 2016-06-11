@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset='utf-8'>
+		<link type='text/css' href='课程测试.css' rel='stylesheet'><!--css文件链接-->
+		<script type='text/javascript' src='课程测试.js'></script><!--js文件链接-->
+		<script type='text/javascript' src='jquery-1.10.2.min.js'></script><!--jquery文件链接-->
+		<meta name ='viewport' content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	</head>
+	<body>
+		<header>
+			<nav class='nav00'>
+				<ul class='ul00'>
+					<a href='#'><li>01</li></a>
+					<a href='#'><li>02</li></a>
+					<a href='#'><li>03</li></a>
+					<a href='#'><li>04</li></a>
+					<a href='#'><li>05</li></a>
+					<a href='#'><li>06</li></a>
+				</ul>
+			</nav>
+			<input type="color"><!--颜色为value值-->
+			<input type="search">
+			<input type="range" max="10" min="0" step="1">
+			<input type="file" class="files" multiple>
+			<input type="url" name="url">
+			<input type="text" pattern="\d{11}" required  placeholder="请输入手机号" >
+			<input type="email" name="email" >
+			<input type="text" name="username" placeholder="请输入用户名">
+		</header>
+		<!----------------------------------------------------->
+		<main class='main01'><!--开始--01html5图片拖放-->
+			<img src="图片/01/monkey.gif" alt="">
+			<img src="图片/01/pig.gif" alt="">
+			<img src="图片/01/dog.gif" alt="">
+			<img src="图片/01/cat.gif" alt="">
+			<div class='one01' draggable=true>请拖拽我</div>
+			<div class='two01'>投放区</div>
+			<div class="dropBox01"></div>
+			<div class='right01'>
+				<div class='box01'></div>
+				<div class='con01'>
+					<ul>
+						<li>后盾网php</li>
+						<li>后盾网js</li>
+						<li>后盾网html5</li>
+						<li>后盾网css3</li>
+					</ul>
+				</div>
+			<div>
+		</main><!--结束--01html5图片拖放-->
+		<!----------------------------------------------------->
+		<main class='main02'><!--开始--02html5拖拽异步上传-->
+			<div class='box02'>
+				请拖入上传的文件
+			</div>
+
+
+
+		</main><!--结束--02html5拖拽异步上传-->
+		<!----------------------------------------------------->
+		<main class='main03'><!--开始--03html5播放器带歌词-->
+			<audio id="player03"></audio>
+			<section class="music03" data-content="拖放一个mp3进来吧:)"></section>
+			<section class="lyric03" data-content="">
+				<ul class="rows03"></ul>
+			</section>
+		</main><!--结束--03html5播放器带歌词-->
+		<!----------------------------------------------------->
+		<!--开始--04课程内容-->
+		<main class='main04'>
+			<div>
+				<pre>	                     charset 字符集
+&lt;meta charset=‘utf-8’>
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8”>
+第三方多核浏览器渲染模式
+新版本IE http-equiv=“X-UA-Compatible” content=“IE=edge,chrome=1” />
+webkit内核渲染方式  name="renderer" content=“webkit"
+百度转码禁止
+  http-equiv="Cache-Control" content="no-siteapp" 
+SEO
+关键字 name="keywords" content="your keywords"
+描述    name="description" content="your description”
+作者   name=“author”   content="author,email address”
+搜索引擎索引方式 name="robots" content=“index,follow"
+none,noindex,nofollow 忽略
+all index 允许索引
+follow  将当前本页链接进行索引并且搜索其它
+百度的 索引定义方式 name=“baiduspider”
+google 索引定义 name=“googlebot"
+				</pre>
+			</div>
+			<div>
+				<pre>
+Cookie
+在客户端保持状态 在HTTP协议中请求头中 大小 4K  通过设置maxAge,expires过期时间
+默认与session 同步
+易用性不好 需要自我封装
+localStorage\sessionStorage
+localStorage 没有过期时间 只保存在客户端中 不参与服务器的通信 大小5M
+存储方法
+setItem(key,value)
+获取方法
+getItem(key,value)
+单个删除
+removeItem(key)
+全部清除
+clear()
+重定向
+http-equid = refresh content=“seconds;url=website”
+缓存时间
+http-equiv="expires" content="Fri, 03 Jun 2016 01:12:38 GMT”
+				</pre>
+			</div>
+		</main>
+		<!--结束--04课程内容-->
+		<!----------------------------------------------------->
+		<!--开始--05-->
+		<main class='main05'>
+			<audio src='' id='mp305'>
+			</audio>
+			<div class='big05'>
+				<div class='list05'>
+					歌曲列表
+				</div>
+				<div class='lrc05'>
+					歌词列表
+				</div>
+			</div>
+			<div class='playbox05' multiple>
+			<div>
+			<div class='wordbox05' multiple>
+			</div>
+		</main>
+		<!--结束--05-->
+		<main class='main06'>
+			<div class='all06'>
+				<div class='move06'>
+					<div class='home06'>
+						<div class='load06'>
+							<div class='star1'>
+							</div>
+							<div class='star2'>
+							</div>
+							<div class='star3'>
+							</div>
+							<div class='star4'>
+							</div>
+							<div class='star5'>
+							</div>
+							<div class='fei06'>
+							</div>
+							<div class='bor06'>
+								<div class='enter06'>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='d106'>
+						<div class='d1a'>
+							<div class='d1a1'>
+							</div>
+							<div class='d1a2'>
+							</div>
+							<div class='d1a3'>
+							</div>
+							<div class='d1a4'>
+							</div>
+							<div class='d1a5'>
+							</div>
+							<div class='d1a6'>
+							</div>
+							<div class='d1a7'>
+							</div>
+							<div class='d1a8'>
+							</div>
+							<div class='d1a9'>
+							</div>
+						</div>
+					</div>
+					<div class='d2'>
+						<div class='d2a'>
+							<div class='d2a1'>
+							</div>
+							<div class='d2a2'>
+							</div>
+							<div class='d2a3'>
+							</div>
+							<div class='d2a4'>
+							</div>
+							<div class='d2a5'>
+							</div>
+							<div class='d2a6'>
+							</div>
+							<div class='d2a7'>
+							</div>
+							<div class='d2a8'>
+							</div>
+							<div class='d2a9'>
+							</div>
+						</div>
+					</div>
+					<div class='d3'>
+						<div class='d3a'>
+							<div class='d3a1'>
+							</div>
+							<div class='d3a2'>
+							</div>
+							<div class='d3a3'>
+							</div>
+							<div class='d3a4'>
+							</div>
+							<div class='d3a5'>
+							</div>
+							<div class='d3a6'>
+							</div>
+							<div class='d3a7'>
+							</div>
+							<div class='d3a8'>
+							</div>
+							<div class='d3a9'>
+							</div>
+							<div class='d3a10'>
+							</div>
+							<div class='d3a11'>
+							</div>
+							<div class='d3a12'>
+							</div>
+							<div class='d3a13'>
+							</div>
+						</div>
+					</div>
+					<div class='d4'>
+						<div class='d4a'>
+							<div class='d4a1'>
+							</div>
+							<div class='d4a2'>
+							</div>
+							<div class='d4a3'>
+							</div>
+							<div class='d4a4'>
+							</div>
+							<div class='d4a5'>
+							</div>
+							<div class='d4a6'>
+							</div>
+							<div class='d4a7'>
+							</div>
+							<div class='d4a8'>
+							</div>
+						</div>
+					</div>
+					<div class='d5'>
+						<div class='green'>
+						</div>
+						<div class='d5a'>
+							<div class='d5a1'>
+							</div>
+							<div class='d5a2'>
+							</div>
+							<div class='d5a3'>
+								<div class='d5pe'>
+								</div>
+							</div>
+							<div class='d5a7'>
+							</div>
+							<div class='d5a4'>
+							</div>
+							<div class='d5a5'>
+							</div>
+							<div class='d5a6'>
+							</div>
+						</div>
+					</div>
+					<div class='d6'>
+						<div class='d6a'>
+							<div class='d6a1'>
+							</div>
+							<div class='d6a2'>
+							</div>
+						</div>
+						<div class='d6b'>
+							<a class='d6b1'>
+							</a>
+							<a class='d6b2'>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class='go06'>
+					<div class='go206'>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer>
+		</footer>
+		<!--开始-->
+		<!--结束-->
+	</body>
+</html>
